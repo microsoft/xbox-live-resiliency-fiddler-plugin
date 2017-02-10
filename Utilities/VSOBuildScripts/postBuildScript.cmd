@@ -14,7 +14,7 @@ goto done
 
 :ready
 
-robocopy /NJS /NJH /MT:16 /S /NP %TFS_SourcesDirectory%\Source %TFS_DropLocation%\Source
+robocopy /NJS /NJH /MT:16 /S /NP %TFS_SourcesDirectory% %TFS_DropLocation%\Source
 
 echo Running postBuildScript.cmd
 echo on
